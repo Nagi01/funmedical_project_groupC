@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+body{
+	margin: 0;
+	text-align: center;
+}
+
+#header{
+	background-color: #FFF;
+	padding: 10px;
+}
+
+#header > h1{
+	color: #F9DB57;
+	margin: 0;
+}
+
+#text_area {
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 5px;
+  resize: none;
+}
+
+#text_length {
+  color: #999;
+  font-size: 13px;
+}
+
+#text_length.out {
+  color: #C00;
+}
+
+.tab{
+	margin: 0 auto;
+	padding: 10px;
+	width: 700px;
+}	
+
+#tab_head{
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+
+}
+
+#tab_head > li{
+background-color: #EEE;
+border: 1px solid #CCC;
+border-bottom: 0;
+width: 341px;
+cursor: pointer;
+float: left;
+margin-right: -1px;
+text-align: center;
+
+}
+
+/*tab_headをもつ要素の直下にあるli要素で[on]のクラス名がついたもののみ*/
+#tab_head > li.on{
+background-color: #FFF;
+cursor: default;
+}
+
+#tab_body {
+  background-color: #FFF;
+  border: 1px solid #CCC;
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  }
+
+  #tab_body > li{
+  	display: none;
+  }
+
+  #tab_body > li.on{
+	display: block;
+  }
+
+/*  #left-bar {
+  border: 1px solid #CCC;
+  margin: 0 right;
+  padding: 10px;
+  width: 80%
+}
+
+ #right-bar {
+  border: 1px solid #CCC;
+  margin-right: 0;
+  padding: 20px;
+  width: 80%
+}
+*/
+
+#footer {
+  margin: 10px;
+  text-align: center;
+}
+
+#footer > p {
+  color: #600;
+  font-size: 14px;
+}
+
+#wrap{
+	width: 780px;
+	text-align: left;
+	margin: 0 auto;
+}
+
+#inner{
+	margin: 0 10px;
+}
+
+#main{
+	width: 450px;
+	float: right;
+}
+w
+#side{
+	width:250px;
+	float: left;
+}
+
+.clear{
+	clear: both;
+}
+
+.clear hr {
+	display: none;
+}
+
+/*#dispplayPanel_forcus{
+	display: none;
+}*/
+
+#checkker{
+	color: red;
+}

@@ -1,0 +1,13 @@
+
+・以下のファイルを、Libsフォルダからこのフォルダにコピーしてください。
+
+    jquery-1.10.2.min.js
+    libopus.js
+    libopus.worker.js
+    libspeexdsp.js
+    msgpack.codec.js
+    resampler.min.js
+    speechrec.min.js
+
+※ファイルの重複を避けるためにこの様にさせて頂いております。
+　お手数をお掛けしますが、よろしくお願い致します。
